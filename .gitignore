@@ -204,5 +204,5 @@ flow-tests/test-express-build/test-embedding-express-build/src/main/dev-bundle
 vaadin-dev-server/src/main/resources/META-INF/frontend
 vaadin-dev-server/src/main/resources/META-INF/metadata
 
-frontend/node_modules/*
+frontend/node_modules
 frontend/build/
