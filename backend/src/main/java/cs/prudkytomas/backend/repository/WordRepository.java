@@ -1,0 +1,7 @@
+package cs.prudkytomas.backend.repository;
+
+import cs.prudkytomas.backend.domain.Word;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface WordRepository extends JpaRepository<Word, Long> {
+}
