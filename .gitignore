@@ -205,3 +205,15 @@ vaadin-dev-server/src/main/resources/META-INF/metadata
 
 /frontend/node_modules
 /frontend/build/
+ backend/gradle/
+ backend/gradlew
+ backend/gradlew.bat
+ backend/settings.gradle
+ frontend/frontend/
+ frontend/gradle/
+ frontend/gradlew
+ frontend/gradlew.bat
+ frontend/settings.gradle
+ frontend/vite.config.ts
+
+
