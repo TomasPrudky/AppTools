@@ -8,8 +8,6 @@ import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.page.Push;
 import com.vaadin.flow.shared.communication.PushMode;
 import cs.prudkytomas.frontend.stopwatch.Stopwatch;
-
-@Push(PushMode.AUTOMATIC)
 public class StopwatchView extends VerticalLayout {
 
     private VerticalLayout verticalLayout;

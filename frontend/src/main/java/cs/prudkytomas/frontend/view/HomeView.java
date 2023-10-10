@@ -26,10 +26,10 @@ public class HomeView extends AppLayout {
 
         Tab urlShortener = new Tab(VaadinIcon.INPUT.create(), new Span("URL Shortener"));
         Tab stopwatch = new Tab(VaadinIcon.TIMER.create(), new Span("Stopwatch"));
-        Tab notifications = new Tab(VaadinIcon.BELL.create(),
-                new Span("Notifications"));
+        Tab guesword = new Tab(VaadinIcon.TEXT_LABEL .create(),
+                new Span("Gues word"));
 
-        Tabs tabs = new Tabs(urlShortener, stopwatch, notifications);
+        Tabs tabs = new Tabs(urlShortener, stopwatch, guesword);
         tabs.setOrientation(Tabs.Orientation.VERTICAL);
 
         urlShortener.getElement().addEventListener("click", e -> {
@@ -40,8 +40,8 @@ public class HomeView extends AppLayout {
             setContent(new StopwatchView());
         });
 
-        notifications.getElement().addEventListener("click", e -> {
-            setContent(new NotificationView());
+        guesword.getElement().addEventListener("click", e -> {
+            setContent(new GuesWord());
         });
 
         Button toggleButton = new Button(VaadinIcon.MOON.create(), click -> {
